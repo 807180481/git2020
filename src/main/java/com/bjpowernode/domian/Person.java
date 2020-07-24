@@ -32,4 +32,13 @@ public class Person {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    @Override
+    public java.lang.String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }
